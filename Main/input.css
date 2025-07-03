@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'large';
+  src: url('./fonts/Inconsolata-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'small';
+  src: url('./fonts/Inconsolata-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'logo';
+  src: url('fonts/HighwayMan_PERSONAL_USE_ONLY.otf') format('truetype');
+}
+@font-face{
+  font-family: 'nav';
+  src: url('./fonts/SERIN___.ttf') format('truetype');
+}
+
+.logo{
+font-family: 'logo';
+}
+/* ul li,h2,h4,h6{
+font-family: 'small';
+} */
+
+ul li,h2,h4,h6{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,h5{
+  font-family: 'large';
+}

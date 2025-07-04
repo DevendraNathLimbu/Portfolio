@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-behavior-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +10,28 @@
     rel="stylesheet"
 />
 </head>
-<body class="min-h-auto w-[100vh] sm:w-screen md:w-screen bg-gray-950 bg-cover bg-top bg-no-repeat overflow-x-hidden scroll-behavior-smooth">
+<body class="min-h-auto w-[100vh] sm:w-screen md:w-screen bg-gray-950 bg-cover bg-top bg-no-repeat overflow-x-hidden">
     
     <main class="h-full w-full">
-       <header class="px-10 sm:px-30 md:px-30 mt-5 md:mt-3 flex justify-between align-center">
+       <header class="px-10 sm:px-30 md:px-30 mt-5 md:mt-3 flex justify-between align-center z-50">
         <div class="logo text-white text-7xl sm:text-4xl md:text-5xl">Porfolio</div>
-        <i class="ri-menu-2-line text-white text-7xl sm:text-4xl md:hidden"></i>
-        <ul class="text-white md:flex text-[32px] gap-12 md:static absolute hidden">
+        <i class="menu ri-menu-2-line text-white text-7xl sm:text-4xl md:hidden cursor-pointer"></i>
+        <ul class="text-white md:flex text-[5pc] font-bold md:font-normal md:text-[32px] gap-12 md:static fixed top-0 transition-all rounded-xl -right-[100%] md:bg-gray-950 bg-gray-400 md:py-0 py-10 md:px-0 px-5">
             <li><a href="#home">Home</a></li>
              <li><a href="#about">About</a></li>
               <li><a href="#projects">Projects</a></li>
                <li><a href="#contact">Contact</a></li>
+               <i class="close ri-close-line md:hidden absolute top-0 right-0 text-[4pc] text-red-400"></i>
         </ul>
        </header>
 
-       <div id="home" class="px-10 sm:px-30 md:px-30 relative">
+       <div id="home" class="px-10 sm:px-30 md:px-30 relative -z-1">
         <h2 class="text-white text-[60px] sm:text-[28px] md:text-5xl mt-15">Hey, I'm <span class="name text-blue-300 text-[55px] sm:text-[30px] md:text-[53px]">Devendra Nath Limbu</span></h2>
         <h4 class="text-white text-[40px] sm:text-[25px] md:text-4xl w-[500px] sm:w-[350px] md:w-[750px] text-justify mt-5">Aspiring Full Stack Developer, stepping forward to build awesome hands on projects and collaboration with awesome aspiring developers.</h4>
         <h4 class="text-orange-300 text-5xl sm:text-3xl md:text-4xl text-justify mt-3 md:mt-5">Feel free to connect</h4>
         <h6 class="text-white w-[650px] gap-10 text-justify mt-5 flex">
-        <button class="text-4xl sm:text-xl md:text-2xl w-50 sm:w-35 md:w-40 px-1 md:px-2 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/linkedin.png" alt="">Linkedin</a></button>
-         <button class="text-4xl sm:text-xl md:text-2xl w-50 sm:w-35 md:w-40 px-10 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/github.png" alt="">GitHub</a></button></h6>
+        <button class="text-5xl sm:text-xl md:text-2xl w-60 sm:w-35 md:w-40 md:px-2 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#" class="flex justify-center items-center"><img class="h-[40px] md:h-[35px] ml-0 mr-2" src="./images/linkedin.png" alt="">Linkedin</a></button>
+         <button class="text-5xl sm:text-xl md:text-2xl w-60 sm:w-35 md:w-40 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#"><a href="#" class="flex justify-center items-center"><img class="h-[40px] md:h-[35px] ml-0 mr-2" src="./images/github.png" alt="">GitHub</a></button></h6>
         <h6 class="text-white text-5xl sm:text-3xl md:text-4xl mt-5">Tech Stack : <span>JavaScript</span></h6>
         <div class="scroll flex flex-col items-center md:w-[750px] mt-15">
             <h5 class="text-white text-5xl sm:text-3xl md:text-4xl">Scroll to learn more</h5>
@@ -40,7 +41,7 @@
         </div>
        </div>
 
-       <div id="about" class="w-full px-10 sm:px-30 md:px-30">
+       <div id="about" class="relative w-full px-10 sm:px-30 md:px-30 -z-10">
         <h1 class="text-white text-7xl sm:text-5xl md:text-6xl w-full text-center mt-10">ABOUT</h1>
         <div class="education w-full my-5">
             <h5 class="text-white text-5xl sm:text-4xl md:text-5xl">Education</h5>

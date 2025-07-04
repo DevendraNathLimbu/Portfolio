@@ -10,12 +10,12 @@
     rel="stylesheet"
 />
 </head>
-<body class="min-h-auto w-screen bg-gray-950 bg-cover bg-top bg-no-repeat overflow-x-hidden scroll-behavior-smooth">
+<body class="min-h-auto w-[100vh] sm:w-screen md:w-screen bg-gray-950 bg-cover bg-top bg-no-repeat overflow-x-hidden scroll-behavior-smooth">
     
     <main class="h-full w-full">
-       <header class="px-30 mt-3 flex justify-between align-center">
-        <div class="logo text-white text-4xl md:text-5xl">Porfolio</div>
-        <i class="ri-menu-2-line text-white text-4xl md:hidden"></i>
+       <header class="px-10 sm:px-30 md:px-30 mt-5 md:mt-3 flex justify-between align-center">
+        <div class="logo text-white text-7xl sm:text-4xl md:text-5xl">Porfolio</div>
+        <i class="ri-menu-2-line text-white text-7xl sm:text-4xl md:hidden"></i>
         <ul class="text-white md:flex text-[32px] gap-12 md:static absolute hidden">
             <li><a href="#home">Home</a></li>
              <li><a href="#about">About</a></li>
@@ -24,84 +24,88 @@
         </ul>
        </header>
 
-       <div id="home" class="px-30 relative">
-        <h2 class="text-white text-[28px] md:text-5xl mt-15">Hey, I'm <span class="name text-blue-300 text-[30px] md:text-[53px]">Devendra Nath Limbu</span></h2>
-        <h4 class="text-white text-[25px] md:text-4xl w-[350px] md:w-[750px] text-justify mt-5">Aspiring Full-Stack Developer, stepping forward to build awesome hands on projects and collaboration with awesome aspiring developers.</h4>
-        <h4 class="text-orange-300 text-3xl md:text-4xl text-justify mt-3 md:mt-5">Feel free to connect</h4>
+       <div id="home" class="px-10 sm:px-30 md:px-30 relative">
+        <h2 class="text-white text-[60px] sm:text-[28px] md:text-5xl mt-15">Hey, I'm <span class="name text-blue-300 text-[55px] sm:text-[30px] md:text-[53px]">Devendra Nath Limbu</span></h2>
+        <h4 class="text-white text-[40px] sm:text-[25px] md:text-4xl w-[500px] sm:w-[350px] md:w-[750px] text-justify mt-5">Aspiring Full Stack Developer, stepping forward to build awesome hands on projects and collaboration with awesome aspiring developers.</h4>
+        <h4 class="text-orange-300 text-5xl sm:text-3xl md:text-4xl text-justify mt-3 md:mt-5">Feel free to connect</h4>
         <h6 class="text-white w-[650px] gap-10 text-justify mt-5 flex">
-        <button class="text-xl md:text-2xl w-35 md:w-40 px-1 md:px-2 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/linkedin.png" alt="">Linkedin</a></button>
-         <button class="text-xl md:text-2xl w-35 md:w-40 px-10 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/github.png" alt="">GitHub</a></button></h6>
-        <h6 class="text-white text-3xl md:text-4xl mt-5">Tech Stack : <span>JavaScript</span></h6>
+        <button class="text-4xl sm:text-xl md:text-2xl w-50 sm:w-35 md:w-40 px-1 md:px-2 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/linkedin.png" alt="">Linkedin</a></button>
+         <button class="text-4xl sm:text-xl md:text-2xl w-50 sm:w-35 md:w-40 px-10 py-1 cursor-pointer rounded-2xl bg-gray-800"><a href="#"><a href="#" class="flex justify-center items-center"><img class="h-[30px] md:h-[35px] ml-0 mr-2" src="./images/github.png" alt="">GitHub</a></button></h6>
+        <h6 class="text-white text-5xl sm:text-3xl md:text-4xl mt-5">Tech Stack : <span>JavaScript</span></h6>
         <div class="scroll flex flex-col items-center md:w-[750px] mt-15">
-            <h5 class="text-white text-3xl md:text-4xl">Scroll to learn more</h5>
-            <a href="#about"><i class="ri-arrow-down-double-line text-white text-6xl mt-3 cursor-pointer"></i></a>
+            <h5 class="text-white text-5xl sm:text-3xl md:text-4xl">Scroll to learn more</h5>
+            <a href="#about"><i class="ri-arrow-down-double-line text-white text-7xl md:text-6xl mt-3 cursor-pointer"></i></a>
         </div>
-        <div class="self absolute -top-8 md:-top-30 h-[150px] md:h-[500px] w-[150px] md:w-[500px] right-6 md:right-0 mt-20 mr-20 bg-[url('images/myself.png')] bg-cover bg-bottom border-white border-2 rounded-full">
+        <div class="self absolute top-8 sm:-top-8 md:-top-30 h-[300px] sm:h-[150px] md:h-[500px] w-[300px] sm:w-[150px] md:w-[500px] -right-20 sm:right-6 md:right-0 mt-20 mr-20 bg-[url('images/myself.png')] bg-cover bg-bottom border-white border-2 rounded-full">
         </div>
        </div>
 
-       <div id="about" class="w-full px-30">
-        <h1 class="text-white text-5xl md:text-6xl w-full text-center mt-10">ABOUT</h1>
+       <div id="about" class="w-full px-10 sm:px-30 md:px-30">
+        <h1 class="text-white text-7xl sm:text-5xl md:text-6xl w-full text-center mt-10">ABOUT</h1>
         <div class="education w-full my-5">
-            <h5 class="text-white text-4xl md:text-5xl">Education</h5>
+            <h5 class="text-white text-5xl sm:text-4xl md:text-5xl">Education</h5>
             <div class="relative box w-full min-h-[160px] bg-[#102838dd] rounded-lg p-3 mt-5">
-                <h6 class="text-gray-200 text-2xl md:text-3xl mb-2">Grade VIII - X (S.E.E)</h6>
-                <h6 class="text-white text-2xl md:text-3xl">School: Karnali Education Foundation</h6>
-                <h6 class="text-white text-2xl md:text-3xl">Location: Buddhabare, Jhapa</h6>
-                <h6 class="text-white text-2xl md:text-3xl">S.E.E Grade: A</h6>
-                <span class="text-gray-300 absolute text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2019 - 2022</span>
+                <h6 class="text-gray-200 text-4xl sm:text-2xl md:text-3xl mb-2">Grade VIII - X (S.E.E)</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">School: Karnali Education Foundation</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Location: Buddhabare, Jhapa</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">S.E.E Grade: A</h6>
+                <span class="text-gray-300 absolute text-[25px] sm:text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2019 - 2022</span>
             </div>
 
          <div class="relative box w-full min-h-[160px] bg-[#102838dd] rounded-lg p-3 mt-5">
-                <h6 class="text-gray-200 text-2xl md:text-3xl mb-2">Grade XI - XII (S.L.C)</h6>
-                <h6 class="text-white text-2xl md:text-3xl">College: COHED Education Foundation</h6>
-                <h6 class="text-white text-2xl md:text-3xl">Location: Birtamod, Jhapa</h6>
-                <h6 class="text-white text-2xl md:text-3xl">S.L.C Grade: A</h6>
-                <span class="text-gray-300 absolute text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2022 - 2024</span>
+                <h6 class="text-gray-200 text-4xl sm:text-2xl md:text-3xl mb-2">Grade XI - XII (S.L.C)</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">College: COHED Education Foundation</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Location: Birtamod, Jhapa</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">S.L.C Grade: A</h6>
+                <span class="text-gray-300 absolute text-[25px] sm:text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2022 - 2024</span>
             </div>
 
             <div class="relative box w-full min-h-[160px] bg-[#102838dd] rounded-lg p-3 mt-5">
-                <h6 class="text-gray-200 text-2xl md:text-3xl mb-2">Current ( Bsc.CSIT )</h6>
-                <h6 class="text-white text-2xl md:text-3xl">Campus: Mechi Multiple Campus</h6>
-                <h6 class="text-white text-2xl md:text-3xl">Location: Bhadrapur, Jhapa</h6>
-                <h6 class="text-white text-2xl md:text-3xl">Running Semester: 2nd</h6>
-                <span class="text-gray-300 absolute text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2024 - Now</span>
+                <h6 class="text-gray-200 text-4xl sm:text-2xl md:text-3xl mb-2">Current ( Bsc.CSIT )</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Campus: Mechi Multiple Campus</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Location: Bhadrapur, Jhapa</h6>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Running Semester: 2nd</h6>
+                <span class="text-gray-300 absolute text-[25px] sm:text-[15px] md:text-2xl top-1 md:top-2 right-2 md:right-4">2024 - Now</span>
             </div>
 
-            <h5 class="text-white text-[33px] md:text-5xl mt-5">Skills</h5>
-        <div class="skills w-full flex gap-10 md:gap-30">
+            <h5 class="text-white text-5xl sm:text-[33px] md:text-5xl mt-5">Skills</h5>
+        <div class="skills w-full flex gap-30 sm:gap-10 md:gap-30">
             <div class="circle md:w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">HTML</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 bg-[url('./images/html.png')] bg-contain bg-center sm:w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">HTML</h6>
             </div>
 
             <div class="circle w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">CSS</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 sm:w-15 md:w-20 bg-[url('./images/css.png')] bg-contain bg-center rounded-full border-1 border-white mb-2"></div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">CSS</h6>
             </div>
 
             <div class="circle w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">JavaScript</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 sm:w-15 md:w-20 bg-[url('./images/js.png')] bg-contain bg-center rounded-full border-1 border-white mb-2"></div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">JavaScript</h6>
             </div>
 
     
             <div class="circle w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">Tailwind</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 sm:w-15 md:w-20 rounded-full border-1 border-white mb-2 overflow-hidden">
+                    <svg class="pl-17 pt-12 sm:p-10 sm:pl-19 sm:pt-14 scale-[1.5]">
+                        <path class="fill-sky-400" d="M17.183 0C12.6 0 9.737 2.291 8.59 6.873c1.719-2.29 3.723-3.15 6.014-2.577 1.307.326 2.242 1.274 3.275 2.324 1.685 1.71 3.635 3.689 7.894 3.689 4.582 0 7.445-2.291 8.591-6.872-1.718 2.29-3.723 3.15-6.013 2.576-1.308-.326-2.243-1.274-3.276-2.324C23.39 1.98 21.44 0 17.183 0ZM8.59 10.309C4.01 10.309 1.145 12.6 0 17.182c1.718-2.291 3.723-3.15 6.013-2.577 1.308.326 2.243 1.274 3.276 2.324 1.685 1.71 3.635 3.689 7.894 3.689 4.582 0 7.445-2.29 8.59-6.872-1.718 2.29-3.722 3.15-6.013 2.577-1.307-.327-2.242-1.276-3.276-2.325-1.684-1.71-3.634-3.689-7.893-3.689Z"></path>
+                    </svg>
+                </div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">TailwindCSS</h6>
             </div>
         </div>
 
-        <h5 class="text-white text-4xl md:text-5xl mt-5">Tools</h5>
-        <div class="skills w-full flex gap-10 md:gap-30">
+        <h5 class="text-white text-5xl sm:text-4xl md:text-5xl mt-5">Tools</h5>
+        <div class="skills w-full flex gap-30 sm:gap-10 md:gap-30">
             <div class="circle w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">Git</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 sm:w-15 md:w-20 bg-[url('./images/git.png')] bg-contain bg-center rounded-full border-1 border-white mb-2"></div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">Git</h6>
             </div>
 
             <div class="circle w-22 flex flex-col items-center justify-center mt-5">
-                <div class="round h-15 md:h-20 w-15 md:w-20 rounded-full border-1 border-white mb-2"></div>
-                <h6 class="text-white text-2xl md:text-3xl">GitHub</h6>
+                <div class="round h-20 sm:h-15 md:h-20 w-20 sm:w-15 md:w-20 bg-[url('./images/git_hub.png')] bg-contain bg-center rounded-full border-1 border-white mb-2"></div>
+                <h6 class="text-white text-4xl sm:text-2xl md:text-3xl">GitHub</h6>
             </div>
 
         </div>
@@ -111,119 +115,134 @@
     </div>
 
     <div id="projects">
-        <h1 class="text-white text-5xl md:text-6xl w-full text-center mt-10">PROJECTS</h1>
-        <div class="collection w-full px-30 py-5 mt-5 flex flex-wrap justify-center md:justify-between gap-5">
-                <div class="project min-h-[300px] w-[300px] bg-[#effeeddd] rounded-lg p-1 md:p-3 text-black">
-                    <h5 class="text-3xl md:text-4xl text-center">Quiz-App</h5>
-                    <div class="img h-[150px] md:h-[200px] w-full"></div>
-                    <p class="text-xl md:text-2xl w-full leading-5 md:leading-7 text-justify">This is a demo project to showcase my skills and learn something new.</p>
+        <h1 class="text-white text-7xl sm:text-5xl md:text-6xl w-full text-center mt-10">PROJECTS</h1>
+        <div class="collection w-full px-10 sm:px-30 py-5 mt-5 flex flex-wrap justify-center md:justify-start gap-5">
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">Tic-Tac-Toe</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/tic-tac-toe.png')] bg-cover bg-center rounded-2xl my-2 md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">A classic Tic Tac Toe game, two players 'X' & 'O' with engaging gameplay. You can try it now.</p>
                     <div class="tools flex gap-3 mt-2">
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
                     </div>
                     <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Live <i class="ri-arrow-right-up-line text-white"></i></button>
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Repo <i class="ri-github-line text-white"></i></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/Tic-Tac-Toe" target="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
                     </div>
                 </div>
 
-                <div class="project min-h-[300px] w-[300px] bg-[#effeeddd] rounded-lg p-1 md:p-3 text-black">
-                    <h5 class="text-3xl md:text-4xl text-center">Quiz-App</h5>
-                    <div class="img h-[150px] md:h-[200px] w-full"></div>
-                    <p class="text-xl md:text-2xl w-full leading-5 md:leading-7 text-justify">This is a demo project to showcase my skills and learn something new.</p>
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">Currency Converter</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/currency.png')] bg-cover bg-center rounded-2xl my-2 md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">A user-friendly Currency Converter built using HTML, CSS, and JavaScript, with real-time exchange rates powered by a free API.</p>
                     <div class="tools flex gap-3 mt-2">
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
                     </div>
                     <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Live <i class="ri-arrow-right-up-line text-white"></i></button>
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Repo <i class="ri-github-line text-white"></i></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://currencyconverter777.netlify.app/" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/Currency-Converter" target="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
                     </div>
                 </div>
 
-                <div class="project min-h-[300px] w-[300px] bg-[#effeeddd] rounded-lg p-1 md:p-3 text-black">
-                    <h5 class="text-3xl md:text-4xl text-center">Quiz-App</h5>
-                    <div class="img h-[150px] md:h-[200px] w-full"></div>
-                    <p class="text-xl md:text-2xl w-full leading-5 md:leading-7 text-justify">This is a demo project to showcase my skills and learn something new.</p>
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">PickUp Lines Generator</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/pickuplines.png')] bg-cover bg-center rounded-2xl my-2 md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">A fun and simple PickUp Lines Generator built with real-time API integration and error handling.</p>
                     <div class="tools flex gap-3 mt-2">
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
                     </div>
                     <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Live <i class="ri-arrow-right-up-line text-white"></i></button>
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Repo <i class="ri-github-line text-white"></i></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/PickUp-Lines" targer="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
                     </div>
                 </div>
 
-                <div class="project min-h-[300px] w-[300px] bg-[#effeeddd] rounded-lg p-1 md:p-3 text-black">
-                    <h5 class="text-3xl md:text-4xl text-center">Quiz-App</h5>
-                    <div class="img h-[150px] md:h-[200px] w-full"></div>
-                    <p class="text-xl md:text-2xl w-full leading-5 md:leading-7 text-justify">This is a demo project to showcase my skills and learn something new.</p>
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">Quiz-App</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/quiz_home.png')] bg-cover bg-center rounded-2xl my-2 md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">This project was built for learning and practice purposes to improve JavaScript logic, DOM manipulation, and working with timers and events.</p>
                     <div class="tools flex gap-3 mt-2">
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
                     </div>
                     <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Live <i class="ri-arrow-right-up-line text-white"></i></button>
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Repo <i class="ri-github-line text-white"></i></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href=" https://quizapp777.netlify.app/" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/Quiz-App" target="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
                     </div>
                 </div>
 
-                <div class="project min-h-[300px] w-[300px] bg-[#effeeddd] rounded-lg p-1 md:p-3 text-black">
-                    <h5 class="text-3xl md:text-4xl text-center">Quiz-App</h5>
-                    <div class="img h-[150px] md:h-[200px] w-full"></div>
-                    <p class="text-xl md:text-2xl w-full leading-5 md:leading-7 text-justify">This is a demo project to showcase my skills and learn something new.</p>
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">QR Code Generator</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/qrcode.png')] bg-cover bg-center rounded-2xl my-2 md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">This project allows user to generate QR Code of any texts or URL quickly through QR generator API.</p>
                     <div class="tools flex gap-3 mt-2">
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
-                        <h5 class="text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
                     </div>
                     <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Live <i class="ri-arrow-right-up-line text-white"></i></button>
-                        <button class="text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer">Repo <i class="ri-github-line text-white"></i></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/QR-Code-Generator" target="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="project min-h-[500px] sm:min-h-[300px] w-[550px] sm:w-[300px] bg-[#effeeddd] rounded-lg p-3 md:p-3 text-black">
+                    <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">Typing Test</h5>
+                    <div class="img h-[300px] sm:h-[150px] bg-[url('./images/pro_img/typing-test.png')] bg-cover bg-center md:h-[200px] w-full"></div>
+                    <p class="text-4xl sm:text-xl md:text-2xl w-full leading-8 sm:leading-5 md:leading-7 text-justify">Here, user can test their typing speed with a typing test of 2-min time limit. Each times random paragraph is generated.</p>
+                    <div class="tools flex gap-3 mt-2">
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">HTML</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">CSS</h5>
+                        <h5 class="text-4xl sm:text-[18px] md:text-xl p-1 md:p-2 md:py-1 rounded text-gray-300 bg-gray-500">JavaScript</h5>
+                    </div>
+                    <div class="btn w-full flex justify-around md:justify-between mt-2 md:mt-3">
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="" target="_blank">Live <i class="ri-arrow-right-up-line text-white"></i></a></button>
+                        <button class="text-6xl sm:text-2xl md:text-3xl md:py-1 p-1 md:p-3 text-gray-300 bg-gray-900 rounded-xl cursor-pointer"><a href="https://github.com/DevendraNathLimbu/Typing-Test" target="_blank">Repo <i class="ri-github-line text-white"></i></a></button>
                     </div>
                 </div>
 
         </div>
     </div>
 
-    <div id="contact" class="w-full px-30 text-white flex flex-col items-center">
-        <h1 class="text-white text-5xl md:text-6xl w-full text-center mt-10 mb-3 md:mb-0">CONTACT</h1>
-        <form action="/" class="w-[600px] md:w-[700px] px-30 md:p-5 flex flex-col justify-center">
-            <h5 class="text-3xl md:text-4xl text-center">Get in Touch</h5>
-           <div class="name w-full flex flex-wrap gap-5 mt-3 justify-center">
+    <div id="contact" class="w-full px-10 sm:px-30 text-white flex flex-col items-center">
+        <h1 class="text-white text-7xl sm:text-5xl md:text-6xl w-full text-center mt-10 mb-3 md:mb-0">CONTACT</h1>
+        <form action="/" class="w-full sm:w-[600px] md:w-[700px] px-10 sm:px-20 md:p-5 flex flex-col justify-center">
+            <h5 class="text-6xl sm:text-3xl md:text-4xl text-center">Get in Touch</h5>
+           <div class="name w-full flex flex-col p-0 flex-wrap gap-5 mt-3 justify-center rounded-2xl border-gray-500">
 <div class="first">
-                 <label for="first_name" class="text-xl md:text-2xl">First Name</label>
-            <input type="text" id="first_name" name="first_name" placeholder="Your first name.." class="w-full p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
+                 <label for="first_name" class="text-4xl sm:text-xl md:text-2xl">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Your first name.." class="h-18 sm:h-10 text-3xl sm:text-2xl w-full p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
 </div>
            <div class="last">
-             <label for="last_name" class="text-xl md:text-2xl">Last Name</label>
-            <input type="text" id="last_name" name="last_name" placeholder="Your last name.." class="w-full p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
+             <label for="last_name" class="text-4xl sm:text-xl md:text-2xl">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Your last name.." class="h-18 sm:h-10 text-3xl sm:text-2xl w-full p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
            </div>
 
            <div class="mail">
-                         <label for="email" class="text-xl md:text-2xl block">Email</label>
-            <input type="text" id="email" name="email" placeholder="xyz@gmail.com" class="w-[300px] md:w-[650px] p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
+                         <label for="email" class="text-4xl sm:text-xl md:text-2xl block">Email</label>
+            <input type="text" id="email" name="email" placeholder="xyz@gmail.com" class="h-18 sm:h-10 text-3xl sm:text-2xl w-full sm:w-[300px] md:w-[650px] p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none">
            </div>
 
            <div class="msg flex flex-col">
             
-            <label for="text" class="text-xl md:text-2xl">Message</label>
-           <textarea name="text" id="text" placeholder="Your Message" class="w-[300px] md:w-[650px] min-h-40 p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none"></textarea>
+            <label for="text" class="text-4xl sm:text-xl md:text-2xl">Message</label>
+           <textarea name="text" id="text" placeholder="Your Message" class="w-full text-3xl  sm:w-[300px] md:w-[650px] min-h-40 p-2 mt-2 bg-gray-800 text-white rounded-lg border-none outline-none"></textarea>
            </div>
 
-           <button class="w-[300px] md:w-full text-xl md:text-2xl p-1 md:p-2 mt-2 bg-gray-700 text-gray-300 rounded-lg cursor-pointer">Send Message</button>
+           <button class="w-full sm:w-[300px] md:w-full text-4xl sm:text-xl md:text-2xl p-3 sm:p-1 md:p-2 mt-2 bg-gray-700 text-gray-300 rounded-lg cursor-pointer">Send Message</button>
 
            </div>
         </form>
     </div>
 
-    <div class="final w-full px-30 flex justify-center mb-3">
-         <p class="text-white">All rights reserved @copyright</p>
+    <div class="final w-full px-10 sm:px-30 flex justify-center my-3">
+         <p class="text-white text-3xl sm:text-xl">Copyright © 2025 All rights reserved</p>
     </div>
 
     </main>
